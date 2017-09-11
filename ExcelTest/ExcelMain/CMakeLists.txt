@@ -1,0 +1,8 @@
+include_directories(/home/seanwon/workSpce/excelLibPrj/Excel-XML/ExcelTest/ExcelLib)
+if(CMAKE_COMPILER_IS_GNUCXX)
+    add_compile_options(-std=c++11)
+    message(STATUS "optional:-std=c++11")   
+endif(CMAKE_COMPILER_IS_GNUCXX)
+set(APP_SRC /home/seanwon/workSpce/excelLibPrj/Excel-XML/ExcelTest/ExcelMain/main.cpp)
+add_executable(hello ${APP_SRC})
+target_link_libraries(hello libExcelLib)

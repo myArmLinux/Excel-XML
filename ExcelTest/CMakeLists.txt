@@ -1,0 +1,7 @@
+project(HELLO)
+if(CMAKE_COMPILER_IS_GNUCXX)
+    add_compile_options(-std=c++11)
+    message(STATUS "optional:-std=c++11")   
+endif(CMAKE_COMPILER_IS_GNUCXX)
+add_subdirectory(ExcelMain)
+add_subdirectory(ExcelLib)
