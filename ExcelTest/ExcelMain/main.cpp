@@ -59,6 +59,9 @@ int main(int argc, const char * argv[]) {
     
     cell = row->getCell(1);
     cell->setContents(Data("New Column"));
+
+    cell = row->getCell(2);
+    cell->setContents(Data("test data"));
     //Saves the data in xml to the file
     spreadsheet.save();
     
