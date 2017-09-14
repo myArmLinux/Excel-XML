@@ -16,6 +16,7 @@
 class Table {
     vector<Row> _contentsOfTable;
     vector<Column> _widthsOfRows;
+    unsigned CellBitMap[32];
 public:
     Table();
     Table(Row data[], int numOfRows);
@@ -34,6 +35,11 @@ public:
     int getNumberOfRows();
     
     string getXML();
+
+    void setCellBitMap(int row, int column);
+    int getCellBitMap(int row, int column);
+    void setMergeAcross(int rowNumber, int begin, int end);
+    void setMergeDown(int CloumnNumber,int begin, int end);
 };
 
 #endif /* defined(__Excel__Table__) */

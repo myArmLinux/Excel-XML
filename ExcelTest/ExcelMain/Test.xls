@@ -7,7 +7,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Name Here</Author>
   <LastAuthor>Name Here</LastAuthor>
-  <Created>2017-09-11T16:12:49Z</Created>
+  <Created>2017-09-12T14:49:53Z</Created>
   <Company>Company Name</Company>
   <Version>14.0</Version>
  </DocumentProperties>
@@ -32,15 +32,18 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="160" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hello</Data></Cell>
     <Cell><Data ss:Type="String">New Column</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">test result 111</Data></Cell>
+   </Row>
   </Table>
   <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:DefaultColumnWidth="320" ss:DefaultRowHeight="15">
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Unsynced/>

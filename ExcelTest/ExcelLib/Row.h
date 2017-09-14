@@ -25,7 +25,10 @@ public:
     Cell* getCell(int index);
     
     int getNumberOfCells();
-    string getXML();
+    string getXML(unsigned int rowBitMap);
+    void setMergeAcross(int begin, int end);
+    void setMergeDown(int cloumn, int begin, int end);
+
 };
 
 #endif /* defined(__Excel__Row__) */

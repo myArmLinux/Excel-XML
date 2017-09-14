@@ -18,6 +18,19 @@
 #error C++ Compiler Required
 #endif
 
+#ifndef TOP_ALIGN
+#define TOP_ALIGN 51
+#define MIDDLE_ALIGN 52
+#define DEFAULT_ALIGN 0
+#define LIFT_ALIGN   53
+#define NORMAL_MIDDLE_ALIGN 54
+#define RIGHT_ALIGN  55
+#define AUTO_ALIGN   56
+#define MIDDLE_MIDDLE_ALIGN  58
+
+#endif
+
+
 using namespace std;
 
 class Excel {
